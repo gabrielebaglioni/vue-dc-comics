@@ -29,7 +29,6 @@ name: 'baseHeader',
 
 <style lang="scss" scoped>
 .header {
-  
     height: 20%;
     display: flex;
     justify-content: space-around;
