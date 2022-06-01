@@ -29,11 +29,21 @@ name: 'baseHeader',
 
 <style lang="scss" scoped>
 .header {
+  
+    height: 20%;
     display: flex;
     justify-content: space-around;
-    &__list{
-       display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
         list-style: none;
+        gap: .625rem;
+        justify-content: center;
+        color:grey;
+        a{
+           text-decoration: none;
+           
+        }
     }
 }
 </style>
