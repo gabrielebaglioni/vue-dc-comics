@@ -18,3 +18,9 @@
 .footer__container-social {
     width: 100%;
 }
+
+.footer__container-list {
+    margin: auto;
+    width: var(--container-footer-big);
+    max-width: var(--container-footer-list);
+}
