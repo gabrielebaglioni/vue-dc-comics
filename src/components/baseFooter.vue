@@ -91,6 +91,7 @@ export default {
     &__container-DC{
        height:26.25rem ;
        background-image: url(../assets/img/img/footer-bg.jpg);
+       overflow: hidden;
        
     }
     &__info{
@@ -104,7 +105,8 @@ export default {
        
       img{
          height: 100%;
-        object-fit:contain;
+        position: relative;
+        bottom: 50px;
       }
     }
     &__container-social{
