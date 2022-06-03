@@ -86,7 +86,16 @@
     <div class="footer__container-social">
          <div class="footer__social">
                <button>Sing-up Now</button>
-         </div>
+        
+               <div class="footer__link-social">
+                  <span>FOLLOW US</span>
+                  <a href="#"><img src="../assets/img/img/footer-facebook.png" alt=""></a>
+                  <a href="#"><img src="../assets/img/img/footer-twitter.png" alt=""></a>
+                  <a href="#"><img src="../assets/img/img/footer-pinterest.png" alt=""></a>
+                  <a href="#"><img src="../assets/img/img/footer-periscope.png" alt=""></a>
+                  <a href="#"><img src="../assets/img/img/footer-youtube.png" alt=""></a>
+               </div>
+          </div>
     </div>    
          
       
@@ -163,6 +172,8 @@ export default {
        align-items: center;
        justify-content: center;
        justify-content: space-between;
+
+       
        
        button{
           padding: .625rem;
@@ -176,8 +187,28 @@ export default {
           background-color: #0082F9;
           transition: 1ms;
        }
+      
 
     }
+    &__social{
+          display: flex;
+          justify-content: space-between;
+       }
+     &__link-social{
+           
+           display: flex;
+           align-items: center;
+           gap: .525rem;
+           span{
+              color: #0082F9;
+              font-size: small;
+              
+           }
+           img{
+              height: 1.875rem;
+              width:  1.875rem;
+           }
+       }
     &__container-list{
        position: absolute;
        left: 250px;
