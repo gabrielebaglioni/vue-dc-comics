@@ -85,7 +85,7 @@
    </div> 
     <div class="footer__container-social">
          <div class="footer__social">
-
+               <button>Sing-up Now</button>
          </div>
     </div>    
          
@@ -158,6 +158,25 @@ export default {
     &__container-social{
        height: 7.4rem;
        background-color: #303030;
+       padding: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       justify-content: space-between;
+       
+       button{
+          padding: .625rem;
+          text-transform: uppercase;
+          cursor: pointer;
+          background-color: transparent;
+          border: 1px solid #0082F9;
+          color: white;
+       }
+       button:hover{
+          background-color: #0082F9;
+          transition: 1ms;
+       }
+
     }
     &__container-list{
        position: absolute;
@@ -178,6 +197,7 @@ export default {
      &__col{
           padding-right: 60px;
        }
+       
 
  }
 </style>
