@@ -30,7 +30,7 @@
    <div class="footer__container-DC">
       <div class="footer__container-list">
          <div class="footer__info">
-               <div class="col">
+            <div class="col">
                   <h3><strong>dc Comics</strong></h3>
                   <ul>
                      <li><a href="#">characters</a></li>
